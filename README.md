@@ -1,6 +1,7 @@
 ## Proyecto Optimización de Talento
 
 Con el objetivo de reducir la rotación de empleados y mejorar la satisfacción en el trabajo la empresa ABC Corporation, nos solicita desarrollar un proyecto de análisis de datos. 
+
 Nuestro objetivo es identificar factores clave que influyen en la satisfacción en el trabajo y, en última instancia, en la retención de empleados.
 
 ### Análisis Exploratorio de Datos (EDA) 
@@ -46,4 +47,16 @@ Nuestro objetivo es identificar factores clave que influyen en la satisfacción 
     - Se realizaron conversiones de tipos de datos en columnas, como convertir columnas de texto que contenían números a tipo int o float.
 
     - Se verificó que todas las conversiones se realizaron correctamente utilizando df.dtypes.
+
+3. Homogenización y Consistencia de los Datos
+
+   - Unificación de Formatos: Las columnas que contenían valores numéricos en formato string (por ejemplo, cantidades o años) fueron convertidas a los tipos de datos correspondientes, como int o float. Esto asegura que las operaciones              matemáticas y estadísticas puedan realizarse correctamente.
+
+   - Consistencia en los Valores Categóricos: Se identificaron columnas con valores categóricos, tales como el género, el tipo de trabajo, etc. Aseguramos que no existieran discrepancias como mayúsculas/minúsculas, utilizando funciones como        .str.lower() para convertir todos los valores a minúsculas y hacer la comparación consistente.
+
+    - En algunas columnas se realizaron transformaciones para que las categorías tuvieran valores homogéneos, eliminando posibles errores de tipeo y simplificando las categorías.
+
+    - Homogenización de Unidades de Medida: Si las columnas contenían valores numéricos que representaban unidades de medida (por ejemplo, salarios), se verificó que todas las unidades fueran consistentes. Por ejemplo, si una columna                representaba años en la empresa, se estandarizó para que todos los valores estuvieran en la misma unidad (años completos).
+
+    - En las columnas donde se recogían unidades de medida, se extrajo y se definió el tipo de dato como números puros (sin texto) para facilitar su análisis.
 
