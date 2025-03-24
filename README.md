@@ -31,24 +31,13 @@ Nuestro objetivo es identificar factores clave que influyen en la satisfacción 
 
 ### Transformación del DataFrame 
 
-1. Tratamiento de Valores Nulos
-
-    - Se identificaron las columnas con valores nulos.
-
-    - Dependiendo de la naturaleza de la columna, se tomaron decisiones sobre cómo tratar los valores nulos:
-
-        a. En el caso de columnas numéricas, los valores nulos fueron reemplazados por la media o mediana de la columna.
-        b. En el caso de columnas categóricas, los valores nulos fueron reemplazados por la media o mediana de la columna y, en otros casos, por nuevas 'etiquetas de valor'.
-
-    - Se verificó que los valores nulos fueran tratados correctamente mediante df.isnull().sum().
-
-2. Conversión de Tipos de Datos
+1. Conversión de Tipos de Datos
 
     - Se realizaron conversiones de tipos de datos en columnas, como convertir columnas de texto que contenían números a tipo int o float.
 
     - Se verificó que todas las conversiones se realizaron correctamente utilizando df.dtypes.
 
-3. Homogenización y Consistencia de los Datos
+2. Homogenización y Consistencia de los Datos
 
    - Unificación de Formatos: Las columnas que contenían valores numéricos en formato string (por ejemplo, cantidades o años) fueron convertidas a los tipos de datos correspondientes, como int o float. Esto asegura que las operaciones              matemáticas y estadísticas puedan realizarse correctamente.
 
@@ -59,4 +48,15 @@ Nuestro objetivo es identificar factores clave que influyen en la satisfacción 
     - Homogenización de Unidades de Medida: Si las columnas contenían valores numéricos que representaban unidades de medida (por ejemplo, salarios), se verificó que todas las unidades fueran consistentes. Por ejemplo, si una columna                representaba años en la empresa, se estandarizó para que todos los valores estuvieran en la misma unidad (años completos).
 
     - En las columnas donde se recogían unidades de medida, se extrajo y se definió el tipo de dato como números puros (sin texto) para facilitar su análisis.
+
+3. Tratamiento de Valores Nulos
+
+    - Se identificaron las columnas con valores nulos.
+
+    - Dependiendo de la naturaleza de la columna, se tomaron decisiones sobre cómo tratar los valores nulos:
+
+        a. En el caso de columnas numéricas, los valores nulos fueron reemplazados por la media o mediana de la columna.
+        b. En el caso de columnas categóricas, los valores nulos fueron reemplazados por la media o mediana de la columna y, en otros casos, por nuevas 'etiquetas de valor'.
+
+    - Se verificó que los valores nulos fueran tratados correctamente mediante df.isnull().sum().
 
