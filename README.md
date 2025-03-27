@@ -1,35 +1,18 @@
-## Proyecto Optimización de Talento
+## 📌 Proyecto Optimización de Talento
 
 Con el objetivo de reducir la rotación de empleados y mejorar la satisfacción en el trabajo la empresa ABC Corporation, nos solicita desarrollar un proyecto de análisis de datos. 
 
 Nuestro objetivo es identificar factores clave que influyen en la satisfacción en el trabajo y, en última instancia, en la retención de empleados.
 
-### Análisis Exploratorio de Datos (EDA) 
+## FASE 1. CONOCEMOS Y MANEJAMOS LOS DATOS DEL ANÁLISIS
+
+### 📌 Análisis Exploratorio de Datos (EDA) 
 
 1. Carga de Datos
-
-    - Carga de un archivo CSV utilizando la librería pandas a través de Visual_Code.
-
-    - Se verificó la estructura de los datos con el comando df.head() y df.info() para inspeccionar las primeras filas y la información general del DataFrame.
-
-2. Inspección Inicial del DataFrame
-
-    - Se verificaron las primeras filas del dataset para entender la estructura de los datos.
-
-    - Se inspeccionó el tipo de datos de cada columna utilizando df.dtypes para determinar si las columnas contenían valores numéricos, de texto o fechas.
-      
-    - Se calculó el porcentaje de valores nulos en cada columna con df.isnull().mean() * 100.
-
+2. Inspección Inicial del DataFrame 
 3. Análisis Estadístico Descriptivo
 
-    - Se obtuvieron estadísticas descriptivas del DataFrame con df.describe() para comprender la distribución de las variables numéricas.
-
-    - Se identificaron valores atípicos o inconsistencias en los datos numéricos.
-
-    - Para columnas categóricas, se analizaron los valores utilizando df['column_name'].value_counts().
-
-
-### Transformación del DataFrame 
+### 📌 Transformación del DataFrame 
 
 1. Conversión de Tipos de Datos
 
@@ -49,14 +32,30 @@ Nuestro objetivo es identificar factores clave que influyen en la satisfacción 
 
     - En las columnas donde se recogían unidades de medida, se extrajo y se definió el tipo de dato como números puros (sin texto) para facilitar su análisis.
 
-3. Tratamiento de Valores Nulos
+## FASE 2. EVALUACIÓN E IMPORTACIÓN DE DATOS NULOS
 
-    - Se identificaron las columnas con valores nulos.
+    - Se identificó las columnas con valores nulos.
 
-    - Dependiendo de la naturaleza de la columna, se tomaron decisiones sobre cómo tratar los valores nulos:
+    - Dependiendo de la naturaleza de la columna, se toman decisiones sobre cómo tratar los valores nulos:
 
         a. En el caso de columnas numéricas, los valores nulos fueron reemplazados por la media o mediana de la columna.
-        b. En el caso de columnas categóricas, los valores nulos fueron reemplazados por la media o mediana de la columna y, en otros casos, por nuevas 'etiquetas de valor'.
+        b. En el caso de columnas categóricas, los valores nulos fueron reemplazados por nuevas 'etiquetas de valor'.
 
     - Se verificó que los valores nulos fueran tratados correctamente mediante df.isnull().sum().
+    
 
+## FASE 3. CREACIÓN DE LA BASE DE DATOS
+
+    - Se realizó un estudio de los datos a contener en función de las columnas existentes
+    - Tras evaluar los datos se decide una importación global de los mismos, incluyendo los datos nulos. 
+    - Se realiza un informe de recomendaciones sobre las columnas y sus valores nulos.
+    - Se crean tres tablas de interrelación para la importación de los datos según los siguientes criterios:
+            - Datos Básicos relativos a los datos de carácter personal del empleado
+            - Datos de Empresa que recogen toda la información del trabajador y su puesto de trabajo
+            - Niveles de Satisfacción del empleado donde se importan todas las columnas que recogen escalas de tipo numérico en el DataFrame
+    - Se genera la Primary Key en 'employeer_number', común para las tres tablas.
+
+FASE 4. ANÁLISIS DE LA ROTACIÓN DE LOS EMPLEADOS
+-
+-
+-
