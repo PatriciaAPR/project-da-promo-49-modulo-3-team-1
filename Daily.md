@@ -1,4 +1,13 @@
-*** Daily 28/03/2025.
+*** Daily 31/03/2025 ***
+
+- Patri y Sara han terminado su parte de la bbdd, perfecto.
+- Noe y yo unificamos lo que hemos hecho cada una el finde, modificamos duplicados de employee_id y guardamos csv filtrado sin nulos.
+- Patri va a ir avanzando como un guion para el canva, tenerlo mas claro cuando tengamos que hacerlo.
+- Aclaramos que es lo que hay que poner en el README, que sera una explicacion clara de que se trata el proyecto, y despues en cada fase tendremos un archivo .md de documentacion donde pondremos los argumentos de porque hemos tomado las decisiones de nuestro codigo.
+- Por mayoria, decidimos que no hay que revisar el codigo o el trabajo de las compañeras para poder avanzar asi el proyecto, evidentemente eso no significa que si alguna de nosotras quiere revisarlo para tener las cosas claras puede hacerlo y preguntar sus dudas sin ningún inconveniente.
+- Hoy avanzaremos con las graficas y el análisis.
+
+*** Daily 28/03/2025. ***
 - Noelia e Isabel explican al resto del equipo los tips que Cesar dio en la charla de ultima hora de ayer:
     ***charla con Cesar:
     - distance from home: nos comenta que segun los rangos se puede deducir que los datos negativosa son simplemente errores, que serian los km en positivo, es decir dejar esos datos con valor absoluto (positivo)
@@ -14,12 +23,12 @@
 
 - Por la situacion que sea, si algún componente del equipo va a ausentarse tiene que avisar, simplemente para saber que no va a estar y avanzar sin tener que esperar.
 
-*** Daily 27/03/2025
+*** Daily 27/03/2025 ***
 - Tal como decidimos hoy dividimos el trabajo en dos equipos, Patri y Sara iran a una minisala a avanzar la creacion de bbdd y Noe e Isabel avanzaran con la gestion de Nulos.
 - Una vez acabe el tiempo de proyecto veremos comentaremos como vamos, con el objetivo de tener finalizada esta etapa el lunes 31 por tarde.
 
 
-***Daily 26/03/2025
+***Daily 26/03/2025 ***
 
 - Hoy en la daily se anunció el cambio de Scrum Master, ahora tomará ese rol Isabel en lugar de Noelia. 
 - Hemos debatido que hasta ahora había trabajo duplicado y se ha decidido repartir las tareas de forma más eficiente formando dos equipos: Noelia e Isabel que se encargarán de la importación de nulos del CSV, mientras que Patri y Sara trabajarán en la base de datos en SQL. 
