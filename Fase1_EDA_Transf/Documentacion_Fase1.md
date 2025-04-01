@@ -16,8 +16,8 @@ Para cumplir nuestros objetivos es muy importante la comprensión del conjunto d
         - "years_with_current_manager": ¿Cuántos años lleva con el mismo jefe? (0, 1, [...], 16, 17).
 
         ¿Por qué son importantes?
-            -> Si hay empleados que se van tras pocos años, podemos analizar qué lo causa.
-            -> Si la falta de promociones o cambio de jefe influye en la rotación.
+            -> Si hay empleados que se van tras pocos años, ¿qué factor lo causa?
+            -> ¿La falta de promociones o cambio de jefe influye en la rotación?
 
     *** 2.Factores de Satisfacción en el Trabajo: ***
 
@@ -29,9 +29,10 @@ Para cumplir nuestros objetivos es muy importante la comprensión del conjunto d
         - "work_life_balance": (Desde 1, el más bajo, a 4, el más alto).
         - "job_involvement_level": ¿Cuál es el nivel de compromiso con el trabajo?  (Desde 1, el más bajo, a 4, el más alto).
 
-        ¿Por qué son importantes?
-            -> ¿Son los empleados con baja satisfacción los que más se van?
-            -> Qué empresa tiene mejor ambiente y bienestar?
+        ¿Por qué son importantes? Posibles hipótesis sin resolver:
+            -> Los empleados con baja satisfacción abandonan más y pronto.
+            -> El ambiente laboral influye al nivel de satisfacción en las relaciones del trabajo y al equilibrio trabajo-vida personal.
+            -> El nivel de satisfaccción laboral Influye directamente al nivel de compromiso.
 
     *** 3.Factores Económicos y Beneficios: ***
 
@@ -41,9 +42,9 @@ Para cumplir nuestros objetivos es muy importante la comprensión del conjunto d
         - "percent_salary_hike": ¿Cuánto aumenta su sueldo por año? (Desde 11 % a 25 %).
         - "stock_option_level": ¿Cuál es su nivel de oportunidades de desarrollo? (0, 1, 2, 3, de menor a mayor).
 
-        ¿Por qué son importantes?
-        -> ¿Ganan más los empleados que se quedan?
-        -> ¿Los aumentos de sueldo afectan la rotación?
+        ¿Por qué son importantes? Posibles hipótesis sin resolver:
+        -> Los empleados que se quedan tienen un sueldo mayor.
+        -> Los aumentos de sueldo afectan la rotación.
 
     *** 4.Factores de Carga Laboral y Crecimiento ***
     Estas variables reflejan las características respecto a la jornada y experiencia laboral:
@@ -56,9 +57,10 @@ Para cumplir nuestros objetivos es muy importante la comprensión del conjunto d
         - "business_travel_frequency": ¿Cuántos viajes de empresa hace al año?('travel_rarely', 'travel_frequently', 'non_travel')
         - "total_years_worked" -> ¿Cuántos años tiene de experiencia laboral? (Desde 0 a 40)
 
-            ¿Por qué son importantes?
-            -> ¿Las personas con mucha carga laboral se van antes?
-            -> ¿Los empleados con más formación tienen mejor satisfacción?
+            ¿Por qué son importantes? Posibles hipótesis sin resolver:
+            -> Las personas con mucha carga laboral se van antes.
+            -> Los empleados con más formación tienen mejor nivel de satisfacción.
+            -> Los empleados con un nivel jerárquico más alto tienen más retención y por tanto, una menor rotación.
 
     *** 5.Factores Personales y Demográficos ***
 
@@ -71,10 +73,25 @@ Para cumplir nuestros objetivos es muy importante la comprensión del conjunto d
         - "education_level": ¿Cuál es su nivel de estudios más alto? (Desde 1, el más bajo, a 5, el más alto)
         - "distance_from_home_km": ¿Cuánto hay de distancia desde el trabajo a su casa en kilómetros (km)? (Desde 1 km a 29 km)
 
-        ¿Por qué son clave?
-            -> ¿Los empleados más jóvenes cambian de trabajo más seguido?
-            -> ¿El trabajo remoto influye en la satisfacción?
-            -> ¿El tiempo de traslado al trabajo afecta la rotación?
+        ¿Por qué son clave? Posibles hipótesis sin resolver:
+            -> Los empleados más jóvenes cambian de trabajo más seguido.
+            -> El trabajo remoto influye en la satisfacción.
+            -> El tiempo de traslado al trabajo afecta la rotación.
+
+### 📌 Tipos de variables:
+
+- Variables Categóricas: Son los conjuntos de datos cualitativos, que representan las características de un objeto.
+
+            - Ordinal: Son las categorías con un orden lógico, pero sin una diferencia exacta entre ellas: "environmental_satisfaction_level", "relationship_satisfaction_level", "work_life_balance", "job_involvement_level",  "stock_option_level", "job_level", "business_travel_frequency",  "education_level".
+
+            - Nominal: Son las categorías sin ningún orden específico: "employee_turnover", "overtime_hour", "standard_work_hours", "gender", "marital_status", "remote_work".
+
+- Variables numéricas: Este tipo de datos representa cantidades o medidas. 
+
+            - Discretas: Datos que son contables y sus valores se pueden enumerar: "years_at_company", "years_since_last_promotion", "years_with_current_manager", "training_sessions_last_year", "num_companies_worked", "total_years_worked", "birth_year".
+
+            - Continuas: Puede tener un número infinito de valores numéricos dentro de un rango específico: "annual_salary", "percent_salary_hike", "birth_year", "distance_from_home_km".
+
 
 ### 📌 Análisis Exploratorio de Datos (EDA) 
 

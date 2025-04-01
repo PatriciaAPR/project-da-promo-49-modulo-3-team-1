@@ -21,7 +21,7 @@
     Cabe destacar la importancia de la retribución salarial y otros potenciales económicos internos. Analizamos el salario total anual ("annual_salary"), el ingreso mensual ("monthly_income"), tarifa por hora ("hourly_rate"), el incremento porcentual de salario por año ("percent_salary_hike") y las oportunidades de desarrollo como accionistas de la empresa ("stock_option_level").
 
     Queríamos investigar:
-        -> ¿Afectan los viajes frecuentes porn trabajo a la satisfacción?
+        -> ¿Afectan los viajes frecuentes por trabajo a la satisfacción?
         -> ¿Ayudan las formaciones curriculares a mantenerse en el puesto?
         -> ¿Hay relación entre el nivel jerarquico y la satisfacción?
         -> ¿Cuáles son los puestos de trabajo con mayor estabilidad?
