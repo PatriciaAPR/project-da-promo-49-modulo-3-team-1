@@ -83,14 +83,14 @@ Para cumplir nuestros objetivos es muy importante la comprensión del conjunto d
 - Variables Categóricas: Son los conjuntos de datos cualitativos, que representan las características de un objeto.
 
             - Ordinal: Son las categorías con un orden lógico, pero sin una diferencia exacta entre ellas: "environmental_satisfaction_level", "relationship_satisfaction_level", "work_life_balance", "job_involvement_level",  "stock_option_level", "job_level", "business_travel_frequency",  "education_level".
-
+e
             - Nominal: Son las categorías sin ningún orden específico: "employee_turnover", "overtime_hour", "standard_work_hours", "gender", "marital_status", "remote_work".
 
 - Variables numéricas: Este tipo de datos representa cantidades o medidas. 
 
             - Discretas: Datos que son contables y sus valores se pueden enumerar: "years_at_company", "years_since_last_promotion", "years_with_current_manager", "training_sessions_last_year", "num_companies_worked", "total_years_worked", "birth_year".
 
-            - Continuas: Puede tener un número infinito de valores numéricos dentro de un rango específico: "annual_salary", "percent_salary_hike", "birth_year", "distance_from_home_km".
+            - Continuas: Puede tener un número infinito de valores numéricos dentro de un rango específico: "annual_salary", "percent_salary_hike", "distance_from_home_km".
 
 
 ### 📌 Análisis Exploratorio de Datos (EDA) 
