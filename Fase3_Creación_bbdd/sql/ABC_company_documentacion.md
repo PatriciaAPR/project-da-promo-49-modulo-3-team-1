@@ -88,7 +88,7 @@ La base de datos **ABC_company** está diseñada para almacenar y gestionar info
 La estructura de esta base de datos sigue principios de normalización y modularidad con los siguientes objetivos:
 
 
-1. Separación lógica de la información
+### 1. Separación lógica de la información
 
 Dividimos la información en tablas especializadas para mantener la coherencia, evitar redundancias y facilitar futuras ampliaciones. Por ejemplo:
 
@@ -99,12 +99,12 @@ Dividimos la información en tablas especializadas para mantener la coherencia, 
 - business_travel, overtime y salaries separan datos específicos que pueden cambiar independientemente.
 
 
-2. Uso de claves foráneas (FK)
+### 2. Uso de claves foráneas (FK)
 
 Todas las tablas secundarias utilizan employee_number como clave foránea para mantener integridad referencial con la tabla employees. Esto garantiza consistencia entre datos relacionados.
 
 
-3. Facilidad para consultas y análisis
+### 3. Facilidad para consultas y análisis
 
 Al estructurar los datos de esta manera, se facilita:
 
@@ -115,7 +115,7 @@ Al estructurar los datos de esta manera, se facilita:
 - Análisis estadístico o predictivo sin ambigüedad en los datos.
 
 
-4. Escalabilidad
+### 4. Escalabilidad
 
 Si se requiere agregar nuevos datos (como ausentismo, evaluaciones 360°, etc.), se puede hacer sin alterar las tablas existentes, solo añadiendo nuevas relacionadas por employee_number.
 

@@ -7,7 +7,7 @@ La empresa ABC Corporation busca reducir la rotación de empleados y mejorar la 
 
 ## 📂 ESTRUCTURA DE ARCHIVOS
 
-![alt text](<Captura desde 2025-04-06 19-50-00.png>)
+![alt text](<Captura desde 2025-04-06 20-04-36.png>)
 
 
 ## 🛠️ ORGANIZACIÓN DEL TRABAJO
@@ -79,9 +79,7 @@ Las variables categóricas se imputaron usando el valor "unknown" en lugar de la
 
 ---
 
-
 ## 🗄️ FASE 3: Creación de la base de datos
-
 
 En esta fase, se diseñó la estructura de la base de datos para almacenar la información de manera eficiente y organizada. 
 
@@ -121,22 +119,29 @@ La fase de importación de los datos desde Python a la base de datos fue fundame
 
 #### Algunas de las hipótesis a desarrollar serían las siguientes:
 
-🔍 Frecuencia de viajes de empresa ("business_travel_frequency"): La categoría más frecuente es "unknown" (772 casos, 48 %). Esto puede ser preocupante a la hora de establecer conclusiones de resultados ya que hay muchos valores desconocidos. Sería conveniente investigar si los valores "unknown" pueden ser imputados o descartados.
+🔍 Frecuencia de viajes de empresa ("business_travel_frequency"): La categoría más frecuente es "unknown" (772 casos, 48 %). Esto puede ser preocupante a la hora de establecer conclusiones de resultados ya que hay muchos valores desconocidos. 
+
+**Sería conveniente investigar si los valores "unknown" pueden ser imputados o descartados.** 
 
 🔍 Género ("gender"): Predominan los hombres (971 casos, 60 %) frente a las mujeres (643 casos, 39,84 %). 
+
 **Podría analizarse si hay diferencias en rotación por género.**
 
 🔍 Estado civil ("marital_status"): Hay muchos valores "unknown" (651 casos,  40,33 %), lo que nuevamente sugiere problemas con la calidad de los datos. 
-**Si esta variable fuera relevante**, podríamos considerar estrategias de imputación.
+
+**Si esta variable fuera relevante, podríamos considerar estrategias de imputación.**
 
 🔍 Horas extra (overtime_hours): La mayoría de empleados no hacen horas extra (682 casos, 42,25%). 
-Sería **conveniente estudiar en mayor profundidad si hay relación entre hacer horas extra y la rotación.**
+
+**Sería conveniente estudiar en mayor profundidad si hay relación entre hacer horas extra y la rotación.**
 
 🔍 Tipo de jornada (standard_work_hours): 888 empleados (55,02 %) trabajan a tiempo parcial. 
-Esto puede ser un **factor relevante para analizar la rotación.**
+
+**Esto puede ser un factor relevante para analizar la rotación.**
 
 🔍 Trabajo remoto (remote_work): 1000 empleados trabajan en remoto (61,95 %). 
-Podríamos **analizar si el trabajo remoto reduce la rotación.**
+
+**Podríamos analizar si el trabajo remoto reduce la rotación.**
 
 
 ## 📦 BIBLIOTECAS Y HERRAMIENTAS UTILIZADAS
