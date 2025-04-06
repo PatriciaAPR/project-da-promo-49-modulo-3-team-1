@@ -4,9 +4,13 @@
 
 La empresa ABC Corporation busca reducir la rotación de empleados y mejorar la satisfacción de sus empleados en el entorno laboral.  Para ello, se desarrolla un proyecto de análisis de datos con el objetivo de identificar factores clave que influyen en la satisfacción y, en última instancia, en la retención de empleados.
 
+
 ## 📂 ESTRUCTURA DE ARCHIVOS
 
-### 
+![alt text](<Captura desde 2025-04-06 19-50-00.png>)
+
+
+## 🛠️ ORGANIZACIÓN DEL TRABAJO
 
 
 ## 🗄️ FASE 1. CONOCEMOS Y MANEJAMOS LOS DATOS DEL ANÁLISIS
@@ -135,5 +139,37 @@ Esto puede ser un **factor relevante para analizar la rotación.**
 Podríamos **analizar si el trabajo remoto reduce la rotación.**
 
 
+## 📦 BIBLIOTECAS Y HERRAMIENTAS UTILIZADAS
 
+### Python 🐍
+
+#### Pandas 📊
+
+Descripción: Utilizado para el procesamiento y análisis de datos.
+
+#### NumPy 🔢
+
+Descripción: Biblioteca fundamental para el cálculo numérico en Python.
+
+#### Matplotlib 📈
+
+Descripción: Biblioteca para la creación de gráficos estáticos.
+
+#### Seaborn 🌈
+
+Descripción: Extensión de Matplotlib que facilita la creación de gráficos estadísticos complejos.
+
+#### SQLAlchemy 🗄️
+
+Descripción: Herramienta para interactuar con bases de datos SQL desde Python.
+
+#### Jupyter Notebooks 📓
+
+Descripción: Herramienta para desarrollo interactivo de código.
+
+### SQL 🗃️
+
+#### MySQL 🐬 
+
+Descripción: Sistema de gestión de bases de datos relacional utilizado para almacenar y gestionar datos.
 
