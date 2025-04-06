@@ -52,7 +52,7 @@ Los pasos seguidos fueron:
 
 ### ✏️ Identificación de Datos Nulos:
 
-- Se identificaron las columnas con valores nulos desde un análisis exhaustivo de los datos.
+Se identificaron las columnas con valores nulos desde un análisis exhaustivo de los datos.
 
 ### ✏️ Tratamiento de los Valores Nulos:
 
