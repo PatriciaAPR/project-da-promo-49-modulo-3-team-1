@@ -56,3 +56,122 @@ Queríamos investigar:
     -> Identificar qué empresa tiene mejor ambiente y bienestar.
     -> ¿Influye el estado civil en la satisfacción al equilibrar trabajo y vida personal?
 
+
+
+
+3. Análisis de Resultados
+
+
+    1. Factores Clave en la Rotación de Empleados:
+
+    - Horas extras y viajes frecuentes están fuertemente asociados con una mayor rotación, indicando una posible sobrecarga laboral.
+
+    - Estado civil también influye: los empleados solteros presentan una mayor tasa de abandono.
+
+    - Edad y antigüedad: los empleados más jóvenes y con menos tiempo en la empresa tienden a rotar más, incluso si están satisfechos.
+
+    2. Satisfacción Laboral y Retención:
+
+    - Los niveles de satisfacción en áreas como el entorno laboral, el compromiso, la satisfacción general y el equilibrio vida-trabajo están relacionados con una menor rotación.
+
+    - El trabajo remoto y a tiempo parcial se asocia con mayores niveles de satisfacción.
+
+    3. Variables Demográficas y Jerárquicas:
+
+    - Género: las mujeres reportan mayor satisfacción, aunque esto no se traduce directamente en menor rotación.
+
+    - Jerarquía y salario: niveles más altos implican mayor satisfacción, pero también más estré y menor equilibrio vida personal-laboral, lo que puede aumentar el riesgo de rotación si no se gestiona bien.
+
+    4. Calidad de los Datos:
+
+    - Existen valores “unknown” en variables importantes como frecuencia de viajes y estado civil, lo que limita la precisión de algunos análisis.
+
+    - Es fundamental mejorar los procesos de recolección de datos para futuras evaluaciones.
+
+    ✅ Recomendaciones Clave
+
+    - Fomentar el equilibrio vida-trabajo: reducir horas extras, promover trabajo remoto y políticas de bienestar.
+
+    - Retener talento joven: ofrecer planes de desarrollo, crecimiento profesional e incentivos personalizados.
+
+    - Apoyar a niveles jerárquicos altos: brindar recursos contra el estrés y promover el equilibrio personal.
+
+    - Revisar la política salarial: ajustar sueldos bajos para reducir rotación por insatisfacción económica.
+
+    - Mejorar la calidad de datos: eliminar valores desconocidos en variables críticas para una mejor toma de decisiones.
+
+
+**Perfil del trabajador con mayor rotación voluntaria**
+
+    El perfil más propenso al abandono presenta estas características:
+
+        - Joven (años de nacimiento recientes).
+        - Poca antigüedad (bajos years_at_company, total_years_worked).
+        - Nivel bajo o medio en jerarquía (job_level 1 o 2).
+        - Sueldo bajo o medio (annual_salary).
+        - No tiene oportunidades de desarrollo (stock_option_level bajo o 0).
+        - Realiza horas extra y viaja frecuentemente por trabajo.
+        - Tiene baja conciliación vida personal y laboral.
+        - Menor satisfacción ambiental y laboral.
+        - Menor involucramiento o compromiso en el puesto.
+
+    🔍 Recomendaciones Específicas para Retener a Este Tipo de Empleado
+
+        A. Planes de desarrollo profesional para perfiles jóvenes:
+
+            - Implementar programas de mentoría.
+            - Diseñar rutas de crecimiento claras para empleados nuevos.
+            - Acceso a formación continua y certificaciones.
+
+        B. Revisión y personalización de beneficios económicos:
+
+            - Introducir planes de stock options o bonificaciones por desempeño.
+            - Ofrecer incentivos a corto plazo para mantener la motivación.
+
+        C. Reducción o compensación de horas extra:
+
+            - Limitar las horas extras o compensarlas con días libres o tiempo flexible.
+            - Automatizar tareas repetitivas para reducir la sobrecarga.
+
+        D. Evitar viajes innecesarios:
+
+            - Priorizar el trabajo remoto o híbrido frente a traslados constantes.
+            - Cuando los viajes sean necesarios, ofrecer compensaciones justas.
+
+        E. Programas de bienestar y balance vida-trabajo:
+
+            - Promover pausas activas, días de actividades con los equipos fuera del entorno laboral, políticas de desconexión.
+            - Flexibilizar horarios, especialmente en empleados con familia o estudios.
+
+        F. Escuchar activamente al empleado (Recruiters):
+
+            - Aplicar encuestas de satisfacción periódicas (especialmente en los primeros meses).
+            - Canales abiertos de comunicación con RRHH o liderazgo.
+
+        G. Alertas tempranas de fuga:
+
+            - Monitorizar combinaciones de factores de riesgo (por ejemplo: baja satisfacción laboral, más de 2 compañías en las que trabajó, bajo compromiso laboral) para intervenir a tiempo.
+
+
+    🧠 Idea clave:
+
+     Muchos abandonos no se deben solo al salario, sino a una combinación de sentimiento de estancamiento, sobrecarga, y desconexión emocional con la empresa. 
+    Si trabajamos estos puntos, es posible retener más talento joven.
+
+
+
+NEXT STEPS
+
+
+🧾 Optimizar la recolección de datos
+Existen variables importantes que presentan valores inconsistentes. Sugerimos mejorar la imputación de dichos datos.
+📚 Formación en recogida y gestión de datos
+Proponemos ofrecer formación a la empresa ABC Corporation sobre procesos de recogida de datos y el uso de herramientas que faciliten la accesibilidad, integridad y enriquecimiento de la información.
+💡 Aplicar estrategias basadas en el análisis realizado
+Recomendamos a la empresa implementar medidas orientadas a reducir la rotación y mejorar la satisfacción de los empleados, como por ejemplo:
+Políticas de conciliación y bienestar laboral
+Programas de desarrollo para empleados jóvenes
+Apoyo específico a perfiles con alta carga de trabajo
+Revisión de la estructura salarial en niveles más bajos
+
+
