@@ -178,3 +178,22 @@ Descripción: Herramienta para desarrollo interactivo de código.
 
 Descripción: Sistema de gestión de bases de datos relacional utilizado para almacenar y gestionar datos.
 
+
+## 🎥 Presentación final del proyecto
+
+🧠 Hemos preparado una presentación en Canva para explicar el enfoque, las fases del proyecto y nuestras conclusiones.
+
+👉 Puedes verla aquí: [Presentación Canva – DataMind](https://www.canva.com/design/DAGjZyqj95Q/-4QHk3NFcRy3qP5r0kzVkA/edit?utm_content=DAGjZyqj95Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
+
+## 📝 Autoras y agradecimientos
+
+Este proyecto ha sido desarrollado por el equipo **🧠 DataMind** dentro del Programa de Data Analytics de Adalab (Promoción 49).
+
+Queremos agradecer especialmente al equipo docente por su acompañamiento durante el módulo, y a nuestras compañeras por la colaboración, la paciencia y el apoyo constante.
+
+💡 Cualquier comentario o feedback será más que bienvenido.  
+¡Gracias por acompañarnos en este viaje de datos! 😊
+
+— **🧠 Equipo DataMind** | Abril 2025
