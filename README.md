@@ -7,7 +7,7 @@ La empresa ABC Corporation busca reducir la rotación de empleados y mejorar la 
 
 ## 📂 ESTRUCTURA DE ARCHIVOS
 
-![alt text](<Captura desde 2025-04-06 20-04-36.png>)
+![alt text](Files/estructura.png)
 
 
 ## 🛠️ ORGANIZACIÓN DEL TRABAJO
@@ -89,7 +89,7 @@ La base de datos está dividida en varias tablas, interrelacionadas entre sí pa
 
 ### ✏️ Estructura de las Tablas
 
-![alt text](<Captura desde 2025-04-06 19-16-00-2.png>)
+![alt text](<Files/modelo bbdd.png>)
 
 ### ✏️ Importación de los Datos
 
@@ -101,18 +101,18 @@ La fase de importación de los datos desde Python a la base de datos fue fundame
 
 ### ✏️ Análisis Descriptivo.
 
-![alt text](<Captura desde 2025-04-06 19-27-13.png>)
+![alt text](Files/describe.png)
 
 ### ✏️ Análisis de Correlación.
 
-![alt text](image.png)
+![alt text](Files/correlacion.png)
 
 ### ✏️ Visualización de Datos.
 
-![alt text](image-1.png)
+![alt text](Files/grafica_rotacion.png)
 
 
-![alt text](image.png)
+![alt text](Files/grafica_salario.png)
 
 
 ### ✏️ Resultados y Hallazgos.
