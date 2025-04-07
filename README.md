@@ -7,7 +7,7 @@ La empresa ABC Corporation busca reducir la rotación de empleados y mejorar la 
 
 ## 📂 ESTRUCTURA DE ARCHIVOS
 
-![alt text](Files/estructura.png)
+![alt text](Files/estructura_readme.png)
 
 
 ## 🛠️ ORGANIZACIÓN DEL TRABAJO
