@@ -112,7 +112,7 @@ La fase de importación de los datos desde Python a la base de datos fue fundame
 ![alt text](image-1.png)
 
 
-![alt text](image-2.png)
+![alt text](image.png)
 
 
 ### ✏️ Resultados y Hallazgos.
