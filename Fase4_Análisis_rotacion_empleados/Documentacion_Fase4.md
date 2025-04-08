@@ -461,7 +461,7 @@ Esto puede ser clave para las estrategias de retención: **más salario no siemp
 - Mejorar la calidad de datos: eliminar valores desconocidos en variables críticas para una mejor toma de decisiones.
 
 
-## 📌 Perfil del trabajador con mayor rotación voluntaria**
+## 📌 Perfil del trabajador con mayor rotación voluntaria
 
 - Joven (años de nacimiento recientes).
 - Poca antigüedad (bajos years_at_company, total_years_worked).
