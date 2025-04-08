@@ -30,18 +30,18 @@ Técnicas usadas: correlaciones, segmentaciones y análisis de tendencias fundam
 
 La correlación de Pearson es útil porque mide la relación lineal entre dos variables numéricas. Nos ayuda a responder preguntas como:
 
-    ❇️ ¿Qué factores influyen en el abandono de empleados?
-    ❇️ ¿Existe relación entre el salario y la satisfacción laboral?
-    ❇️ ¿A mayor distancia del trabajo, hay más rotación?
+❇️ ¿Qué factores influyen en el abandono de empleados?
+❇️ ¿Existe relación entre el salario y la satisfacción laboral?
+❇️ ¿A mayor distancia del trabajo, hay más rotación?
 
 Nos ayuda a visualizar patrones ocultos: Algunas relaciones no son obvias sin un análisis de correlación. Por ejemplo: Si "work_life_balance" y "employee_turnover" tienen correlación negativa fuerte, mejorar el equilibrio vida-trabajo puede reducir la rotación.
 
 ▶️¿Cómo funciona?
 La correlación de Pearson devuelve un valor entre -1 y 1:
 
-    🔸 Cerca de +1 → Relación positiva fuerte (Si una variable sube, la otra también)
-    🔸 Cerca de -1 → Relación negativa fuerte (Si una sube, la otra baja)
-    🔸 Cerca de 0 → No hay relación lineal
+🔸 Cerca de +1 → Relación positiva fuerte (Si una variable sube, la otra también)
+🔸 Cerca de -1 → Relación negativa fuerte (Si una sube, la otra baja)
+🔸 Cerca de 0 → No hay relación lineal
 
 ##### **Análisis de la Matriz de Correlación**
 
@@ -56,20 +56,20 @@ Un valor cercano a 0 indica que no hay relación significativa entre las dos var
 **📈 Correlaciones detectadas** 
 
 1. **Job Level y Annual Salary (correlación: 0.88):**  
-   Correlación positiva fuerte. A mayor nivel de trabajo, mayor salario anual. Esto es un resultado esperado en la mayoría de organizaciones.
+Correlación positiva fuerte. A mayor nivel de trabajo, mayor salario anual. Esto es un resultado esperado en la mayoría de organizaciones.
 
 2. **Job Level y Total Years Worked (correlación: 0.56):**  
-   Correlación moderada positiva. Los empleados con mayor nivel laboral suelen haber trabajado más tiempo en total.
+Correlación moderada positiva. Los empleados con mayor nivel laboral suelen haber trabajado más tiempo en total.
 
 3. **Job Level y Birth Year (correlación: -0.49):**  
-   Correlación negativa moderada. Empleados con mayor nivel suelen ser mayores (nacieron antes), lo que refleja más experiencia acumulada.
+Correlación negativa moderada. Empleados con mayor nivel suelen ser mayores (nacieron antes), lo que refleja más experiencia acumulada.
 
 4. **Job Level y Years with Current Manager (correlación: 0.37):**  
-   Correlación moderada positiva. Empleados con niveles más altos tienden a haber trabajado más tiempo con su actual manager.
+Correlación moderada positiva. Empleados con niveles más altos tienden a haber trabajado más tiempo con su actual manager.
 
 5. **Job Level y Years at Company (correlación: 0.48):**  
-   Correlación moderada positiva. A mayor antigüedad en la empresa, mayor nivel de trabajo.
- 
+Correlación moderada positiva. A mayor antigüedad en la empresa, mayor nivel de trabajo.
+
 
 ##### Resumen de Análisis de la Matriz de Correlación
 
@@ -275,12 +275,12 @@ Se han analizado varias dimensiones de satisfacción y balance laboral en relaci
 Las principales conclusiones son:
 
 - 🏢 **Satisfacción con el entorno laboral:** Los empleados con niveles medios y altos de satisfacción tienden a permanecer en la empresa. La rotación se reduce significativamente a medida que aumenta la satisfacción.
-  
-- 💼 **Nivel de implicación laboral:** La implicación en el trabajo es uno de los factores más relevantes. Los empleados con un alto nivel de implicación (nivel 4) presentan la rotación más baja del conjunto.
-  
-- 😊 **Satisfacción general con el trabajo:** La mayoría de quienes se quedan en la empresa reportan niveles altos o medios de satisfacción, mientras que la rotación se concentra ligeramente más en niveles bajos.
-  
-- ⚖️ **Equilibrio vida-trabajo:** Un buen balance se asocia con menor rotación. La mayor parte de los empleados que se quedan tienen un balance adecuado (nivel 3 o 4).
+
+💼 **Nivel de implicación laboral:** La implicación en el trabajo es uno de los factores más relevantes. Los empleados con un alto nivel de implicación (nivel 4) presentan la rotación más baja del conjunto.
+
+😊 **Satisfacción general con el trabajo:** La mayoría de quienes se quedan en la empresa reportan niveles altos o medios de satisfacción, mientras que la rotación se concentra ligeramente más en niveles bajos.
+
+⚖️ **Equilibrio vida-trabajo:** Un buen balance se asocia con menor rotación. La mayor parte de los empleados que se quedan tienen un balance adecuado (nivel 3 o 4).
 
 En resumen, los niveles de satisfacción e implicación laboral muestran una relación inversa con la rotación: **a mayor satisfacción e implicación, menor probabilidad de abandono**. 
 
@@ -291,11 +291,11 @@ Esto refuerza la importancia de trabajar en el clima y la cultura laboral como e
 
 Se ha analizado cómo varían distintos niveles de satisfacción y balance laboral en función del nivel educativo de los empleados. Las principales conclusiones son:
 
-- 📚 Los empleados con **nivel educativo medio (nivel 3)** presentan en general **los valores más altos de satisfacción con el entorno laboral, implicación, satisfacción general y balance vida-trabajo**.
-  
-- 📉 Los extremos educativos (niveles 1 y 5) aparecen menos representados y tienden a mostrar porcentajes más bajos en todas las dimensiones analizadas.
+📚 Los empleados con **nivel educativo medio (nivel 3)** presentan en general **los valores más altos de satisfacción con el entorno laboral, implicación, satisfacción general y balance vida-trabajo**.
 
-- 💡 Este patrón podría sugerir que los empleados con educación intermedia tienen un mejor encaje o estabilidad dentro del entorno organizativo actual, mientras que aquellos con niveles muy bajos o muy altos podrían experimentar un menor grado de ajuste o satisfacción.
+📉 Los extremos educativos (niveles 1 y 5) aparecen menos representados y tienden a mostrar porcentajes más bajos en todas las dimensiones analizadas.
+
+💡 Este patrón podría sugerir que los empleados con educación intermedia tienen un mejor encaje o estabilidad dentro del entorno organizativo actual, mientras que aquellos con niveles muy bajos o muy altos podrían experimentar un menor grado de ajuste o satisfacción.
 
 Este análisis puede resultar útil para comprender cómo influyen los factores educativos en la percepción del entorno laboral y en el compromiso general con la organización.
 
@@ -304,11 +304,11 @@ Este análisis puede resultar útil para comprender cómo influyen los factores 
 
 Al analizar las variables de satisfacción e implicación laboral según el género, se observan algunas diferencias notables:
 
-- 📍 En todos los indicadores analizados (`environmental_satisfaction_level`, `job_involvement_level`, `job_satisfaction_level`, `work_life_balance`), **las mujeres presentan porcentajes más altos que los hombres en los niveles más positivos**.
-  
-- 💼 En particular, las mujeres destacan por una **mayor implicación laboral** y una **satisfacción más alta tanto con el trabajo como con el entorno**.
-  
-- ⚖️ En términos de equilibrio entre vida personal y laboral, las mujeres también reportan mejores resultados.
+📍 En todos los indicadores analizados (`environmental_satisfaction_level`, `job_involvement_level`, `job_satisfaction_level`, `work_life_balance`), **las mujeres presentan porcentajes más altos que los hombres en los niveles más positivos**.
+
+💼 En particular, las mujeres destacan por una **mayor implicación laboral** y una **satisfacción más alta tanto con el trabajo como con el entorno**.
+
+⚖️ En términos de equilibrio entre vida personal y laboral, las mujeres también reportan mejores resultados.
 
 Estos datos sugieren que las mujeres podrían tener una **percepción más positiva o más comprometida con su entorno laboral** en comparación con sus compañeros hombres. También podrían reflejar una mayor implicación emocional o un estilo de comunicación diferente en las evaluaciones laborales.
 
@@ -320,7 +320,7 @@ No obstante, es importante tener en cuenta posibles sesgos en la autopercepción
 Al cruzar los distintos niveles de trabajo (`job_level`) con variables de satisfacción y balance laboral, se observa un patrón claro:
 
 - Los niveles bajos e intermedios (`job_level` 1 y 2) muestran **mayores porcentajes de satisfacción con el entorno, implicación laboral, satisfacción general y equilibrio vida-trabajo**.
-  
+
 - A medida que aumenta el nivel de trabajo, **disminuye la proporción de empleados con percepciones positivas en estas dimensiones**. Los niveles 4 y 5 presentan cifras considerablemente más bajas en comparación con los niveles inferiores.
 
 - Esto podría deberse a un **mayor nivel de exigencia, responsabilidad o estrés en los cargos superiores**, lo que impacta negativamente en la percepción del entorno y la experiencia laboral.
@@ -359,7 +359,7 @@ Este hallazgo puede ser de gran valor para la empresa, ya que muestra cómo **po
 El análisis cruzado entre la variable `years_at_company` y distintas dimensiones de satisfacción laboral revela varios patrones relevantes:
 
 - 🏁 Los empleados con **menos de 10 años** en la empresa presentan los **niveles más altos de satisfacción ambiental, implicación, satisfacción general y equilibrio personal-laboral**.
-  
+
 - ⏳ A partir de los **10-15 años**, estas proporciones tienden a estabilizarse o disminuir ligeramente, posiblemente por una combinación de desgaste, rutina o menor reconocimiento a largo plazo.
 
 - 📈 El punto de **mayor implicación y satisfacción** suele darse entre los **5 y 7 años**, lo cual podría coincidir con una etapa de crecimiento o consolidación profesional dentro de la organización.
@@ -420,96 +420,96 @@ Esto puede ser clave para las estrategias de retención: **más salario no siemp
 
 ### Factores Clave en la Rotación de Empleados:
 
-    - Horas extras y viajes frecuentes están fuertemente asociados con una mayor rotación, indicando una posible sobrecarga laboral.
+- Horas extras y viajes frecuentes están fuertemente asociados con una mayor rotación, indicando una posible sobrecarga laboral.
 
-    - Estado civil también influye: los empleados solteros presentan una mayor tasa de abandono.
+- Estado civil también influye: los empleados solteros presentan una mayor tasa de abandono.
 
-    - Edad y antigüedad: los empleados más jóvenes y con menos tiempo en la empresa tienden a rotar más, incluso si están satisfechos.
+- Edad y antigüedad: los empleados más jóvenes y con menos tiempo en la empresa tienden a rotar más, incluso si están satisfechos.
 
 
 ### Satisfacción Laboral y Retención:
 
-    - Los niveles de satisfacción en áreas como el entorno laboral, el compromiso, la satisfacción general y el equilibrio vida-trabajo están relacionados con una menor rotación.
+- Los niveles de satisfacción en áreas como el entorno laboral, el compromiso, la satisfacción general y el equilibrio vida-trabajo están relacionados con una menor rotación.
 
-    - El trabajo remoto y a tiempo parcial se asocia con mayores niveles de satisfacción.
+- El trabajo remoto y a tiempo parcial se asocia con mayores niveles de satisfacción.
 
 
 ### Variables Demográficas y Jerárquicas:
 
-    - Género: las mujeres reportan mayor satisfacción, aunque esto no se traduce directamente en menor rotación.
+- Género: las mujeres reportan mayor satisfacción, aunque esto no se traduce directamente en menor rotación.
 
-    - Jerarquía y salario: niveles más altos implican mayor satisfacción, pero también más estré y menor equilibrio vida personal-laboral, lo que puede aumentar el riesgo de rotación si no se gestiona bien.
+- Jerarquía y salario: niveles más altos implican mayor satisfacción, pero también más estré y menor equilibrio vida personal-laboral, lo que puede aumentar el riesgo de rotación si no se gestiona bien.
 
 
 ### Calidad de los Datos:
 
-    - Existen valores “unknown” en variables importantes como frecuencia de viajes y estado civil, lo que limita la precisión de algunos análisis.
+- Existen valores “unknown” en variables importantes como frecuencia de viajes y estado civil, lo que limita la precisión de algunos análisis.
 
-    - Es fundamental mejorar los procesos de recolección de datos para futuras evaluaciones.
+- Es fundamental mejorar los procesos de recolección de datos para futuras evaluaciones.
 
 
 ## ✅ Recomendaciones Clave
 
-    - Fomentar el equilibrio vida-trabajo: reducir horas extras, promover trabajo remoto y políticas de bienestar.
+- Fomentar el equilibrio vida-trabajo: reducir horas extras, promover trabajo remoto y políticas de bienestar.
 
-    - Retener talento joven: ofrecer planes de desarrollo, crecimiento profesional e incentivos personalizados.
+- Retener talento joven: ofrecer planes de desarrollo, crecimiento profesional e incentivos personalizados.
 
-    - Apoyar a niveles jerárquicos altos: brindar recursos contra el estrés y promover el equilibrio personal.
+- Apoyar a niveles jerárquicos altos: brindar recursos contra el estrés y promover el equilibrio personal.
 
-    - Revisar la política salarial: ajustar sueldos bajos para reducir rotación por insatisfacción económica.
+- Revisar la política salarial: ajustar sueldos bajos para reducir rotación por insatisfacción económica.
 
-    - Mejorar la calidad de datos: eliminar valores desconocidos en variables críticas para una mejor toma de decisiones.
+- Mejorar la calidad de datos: eliminar valores desconocidos en variables críticas para una mejor toma de decisiones.
 
 
 ## 📌 Perfil del trabajador con mayor rotación voluntaria**
 
-        - Joven (años de nacimiento recientes).
-        - Poca antigüedad (bajos years_at_company, total_years_worked).
-        - Nivel bajo o medio en jerarquía (job_level 1 o 2).
-        - Sueldo bajo o medio (annual_salary).
-        - No tiene oportunidades de desarrollo (stock_option_level bajo o 0).
-        - Realiza horas extra y viaja frecuentemente por trabajo.
-        - Tiene baja conciliación vida personal y laboral.
-        - Menor satisfacción ambiental y laboral.
-        - Menor involucramiento o compromiso en el puesto.
-        
+- Joven (años de nacimiento recientes).
+- Poca antigüedad (bajos years_at_company, total_years_worked).
+- Nivel bajo o medio en jerarquía (job_level 1 o 2).
+- Sueldo bajo o medio (annual_salary).
+- No tiene oportunidades de desarrollo (stock_option_level bajo o 0).
+- Realiza horas extra y viaja frecuentemente por trabajo.
+- Tiene baja conciliación vida personal y laboral.
+- Menor satisfacción ambiental y laboral.
+- Menor involucramiento o compromiso en el puesto.
+
 
 ### 🔍 Recomendaciones Específicas para Retener a Este Tipo de Empleado
 
-        A. Planes de desarrollo profesional para perfiles jóvenes:
+A. Planes de desarrollo profesional para perfiles jóvenes:
 
-            - Implementar programas de mentoría.
-            - Diseñar rutas de crecimiento claras para empleados nuevos.
-            - Acceso a formación continua y certificaciones.
+- Implementar programas de mentoría.
+- Diseñar rutas de crecimiento claras para empleados nuevos.
+- Acceso a formación continua y certificaciones.
 
-        B. Revisión y personalización de beneficios económicos:
+B. Revisión y personalización de beneficios económicos:
 
-            - Introducir planes de stock options o bonificaciones por desempeño.
-            - Ofrecer incentivos a corto plazo para mantener la motivación.
+- Introducir planes de stock options o bonificaciones por desempeño.
+- Ofrecer incentivos a corto plazo para mantener la motivación.
 
-        C. Reducción o compensación de horas extra:
+C. Reducción o compensación de horas extra:
 
-            - Limitar las horas extras o compensarlas con días libres o tiempo flexible.
-            - Automatizar tareas repetitivas para reducir la sobrecarga.
+- Limitar las horas extras o compensarlas con días libres o tiempo flexible.
+- Automatizar tareas repetitivas para reducir la sobrecarga.
 
-        D. Evitar viajes innecesarios:
+D. Evitar viajes innecesarios:
 
-            - Priorizar el trabajo remoto o híbrido frente a traslados constantes.
-            - Cuando los viajes sean necesarios, ofrecer compensaciones justas.
+- Priorizar el trabajo remoto o híbrido frente a traslados constantes.
+- Cuando los viajes sean necesarios, ofrecer compensaciones justas.
 
-        E. Programas de bienestar y balance vida-trabajo:
+E. Programas de bienestar y balance vida-trabajo:
 
-            - Promover pausas activas, días de actividades con los equipos fuera del entorno laboral, políticas de desconexión.
-            - Flexibilizar horarios, especialmente en empleados con familia o estudios.
+- Promover pausas activas, días de actividades con los equipos fuera del entorno laboral, políticas de desconexión.
+- Flexibilizar horarios, especialmente en empleados con familia o estudios.
 
-        F. Escuchar activamente al empleado (Recruiters):
+F. Escuchar activamente al empleado (Recruiters):
 
-            - Aplicar encuestas de satisfacción periódicas (especialmente en los primeros meses).
-            - Canales abiertos de comunicación con RRHH o liderazgo.
+- Aplicar encuestas de satisfacción periódicas (especialmente en los primeros meses).
+- Canales abiertos de comunicación con RRHH o liderazgo.
 
-        G. Alertas tempranas de fuga:
+G. Alertas tempranas de fuga:
 
-            - Monitorizar combinaciones de factores de riesgo (por ejemplo: baja satisfacción laboral, más de 2 compañías en las que trabajó, bajo compromiso laboral) para intervenir a tiempo.
+- Monitorizar combinaciones de factores de riesgo (por ejemplo: baja satisfacción laboral, más de 2 compañías en las que trabajó, bajo compromiso laboral) para intervenir a tiempo.
 
 
 
