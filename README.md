@@ -188,7 +188,7 @@ Descripción: Sistema de gestión de bases de datos relacional utilizado para al
 
 ## 📑 Informe final del proyecto
 
-Además de este README, hemos elaborado un informe completo en formato PDF que recoge todo el análisis, visualizaciones y conclusiones clave del proyecto.
+Además de este README, hemos elaborado un informe final completo en formato PDF.
 
 👉 Puedes consultarlo aquí: [📄 Informe Final – ABC Corporation](./Informe.pdf)
 
