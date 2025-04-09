@@ -186,6 +186,12 @@ Descripción: Sistema de gestión de bases de datos relacional utilizado para al
 👉 Puedes verla aquí: [Presentación Canva – DataMind](https://www.canva.com/design/DAGjZyqj95Q/-4QHk3NFcRy3qP5r0kzVkA/edit?utm_content=DAGjZyqj95Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
+## 📑 Informe final del proyecto
+
+Además de este README, hemos elaborado un informe completo en formato PDF que recoge todo el análisis, visualizaciones y conclusiones clave del proyecto.
+
+👉 Puedes consultarlo aquí: [📄 Informe Final – ABC Corporation](./Informe.pdf)
+
 
 ## 📝 Autoras y agradecimientos
 
